@@ -1,0 +1,81 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 4rem;
+    background-color: black;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #000;
+    z-index: 1000;
+    padding: 2rem 9%;
+    border-bottom: .1rem solid #fff3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .logo{
+    font-size: 350%;
+    color: #fff;
+}
+header .navbar a{
+    font-size: 2rem;
+    margin-left: 2.5rem;
+    color: #fff;
+}
+header .navbar a:hover{
+    color: #e01764;
+}
+.pic_pizza{
+    margin-left: 150px;
+    height: 250px;
+}
+.show_menu{
+    padding: 15px;
+    background-color: orange;
+    border: 5px solid rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    height: 70px;
+    width: 250px;
+    text-align: center;
+    margin-left: 750px;
+    margin-top: -200px;
+}
+h3{
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 750px;
+}
+input{
+    color: palevioletred;
+    background-color: white;
+    height: 50px;
+    width: 180px;
+    margin-left: 50px;
+}
+button{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    height: 100px;
+    width: 200px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    margin-left: 50px;
+}
